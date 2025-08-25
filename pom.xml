@@ -25,17 +25,13 @@
 
 	</dependencies>
 	
-	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://44.202.251.20:8081/repository/flm-releases/</url>
-		</repository>
-  	</distributionManagement>
+<distributionManagement>
+  <repository>
+    <id>nexus-maven-repo</id>
+    <url>http://13.233.195.201:8081/repository/nexus-maven-repo/</url>
+  </repository>
+</distributionManagement>
+
 	
 	<pluginRepositories>
 	    <pluginRepository>    
